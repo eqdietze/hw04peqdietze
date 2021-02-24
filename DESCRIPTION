@@ -1,15 +1,14 @@
 Package: hw04peqdietze
-Title: What the Package Does (One Line, Title Case)
+Title: HW04 Package by eqdietze
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Elizabeth",
+           family = "Dietze",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "ed0998a@student.american.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: This package creates two codes as assigned in HW04. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
