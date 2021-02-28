@@ -1,13 +1,13 @@
-#' Plot of n and output from myseq_n function
+#' Plot of n and output
 #'
 #' This function creates a geom_line plot where x = n and y = the output from the myseq_n function.
 #'
-#' @param df
+#' @param df a vector
 #'
 #' @return a line plot
 #' @export myplot_n
 #' @importFrom ggplot2 ggplot aes geom_line xlab ylab
-#' @examples myplot_n(my_data)
+#' @examples myplot_n(data)
 myplot_n <- function(df) {
   funvec <- vector(mode = "integer", length = nrow(df))
   for(i in seq_along(funvec))
