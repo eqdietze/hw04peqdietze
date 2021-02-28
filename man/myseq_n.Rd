@@ -18,5 +18,5 @@ an integer n
 This function takes as input a vector x containing the first three numeric elements of this sequence and a positive integer n denoting the final element of the sequence to calculate and returns element n.
 }
 \examples{
-myseq_n(x = c(2, 3, 3), n = 3) myseq_n(x = c(2, 4, 3), n = 4)
+myseq_n(x = c(2, 3, 3), n = 3)
 }

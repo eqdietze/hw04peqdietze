@@ -8,7 +8,7 @@
 #' @return an integer n
 #' @export myseq_n
 #'
-#' @examples myseq_n(x = c(2, 3, 3), n = 3) myseq_n(x = c(2, 4, 3), n = 4)
+#' @examples myseq_n(x = c(2, 3, 3), n = 3)
 myseq_n <- function(x, n) {
   stopifnot(length(x) == 3 & is.numeric(x))
   stopifnot(n > 0 & as.integer(n))
