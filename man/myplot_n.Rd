@@ -2,12 +2,12 @@
 % Please edit documentation in R/myplot_n.R
 \name{myplot_n}
 \alias{myplot_n}
-\title{Plot of n and output from myseq_n function}
+\title{Plot of n and output}
 \usage{
 myplot_n(df)
 }
 \arguments{
-\item{df}{}
+\item{df}{a vector}
 }
 \value{
 a line plot
@@ -16,5 +16,5 @@ a line plot
 This function creates a geom_line plot where x = n and y = the output from the myseq_n function.
 }
 \examples{
-myplot_n(my_data)
+myplot_n(data)
 }

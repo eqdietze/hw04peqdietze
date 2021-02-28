@@ -15,6 +15,22 @@ knitr::opts_chunk$set(
 )
 ```
 
+# Install and Library 
+
 ```{r setup}
 library(hw04peqdietze)
 ```
+
+# myseq_n Function Usage
+
+This function is defined by a recursive sequence. That is, element n is the sum of element n−1 and the difference between elements n−2 and n−3 divided by n. This function takes as input a vector x containing a three element sequence and a positive integer n denoting the final nth element of the sequence to calculate. The function returns element n. 
+
+```{r}
+# Example code
+myseq_n(x = c(2, 3, 3), n = 3)
+```
+
+References:
+
+Professor Ressler's 21S STAT-413/613-001/005 HW04 Instructions. 
+
