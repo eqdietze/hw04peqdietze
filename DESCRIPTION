@@ -25,3 +25,5 @@ Imports:
     ggplot2,
     magrittr,
     tibble
+URL: https://github.com/eqdietze/hw04peqdietze
+BugReports: https://github.com/eqdietze/hw04peqdietze/issues
