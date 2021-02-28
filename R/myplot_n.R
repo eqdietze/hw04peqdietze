@@ -7,7 +7,7 @@
 #' @return a line plot
 #' @export myplot_n
 #' @importFrom ggplot2 ggplot aes geom_line xlab ylab
-#' @examples myplot_n(data)
+#' @examples
 myplot_n <- function(df) {
   funvec <- vector(mode = "integer", length = nrow(df))
   for(i in seq_along(funvec))

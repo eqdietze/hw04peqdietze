@@ -15,6 +15,3 @@ a line plot
 \description{
 This function creates a geom_line plot where x = n and y = the output from the myseq_n function.
 }
-\examples{
-myplot_n(data)
-}
